@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jokerman";
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(3, 11, 65, 0.7), rgba(0, 115, 115, 0.72)), url("BACKGROUND.jpg");
+}
+
+.navbar{
+    width: 57.5%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkslategray;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-align: center;
+    text-decoration: line;
+    color: #029a9a;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  background-color: rgba(255, 0, 60, 0.05);
+}
+
+.social-container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.5em;
+}
+
+.social-icons i {
+  color: antiquewhite;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+  color: antiquewhite;
+}
+
+/**/
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #024899, #029a9a);
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #024899;
+  background: -webkit-linear-gradient(45deg, #14238d, #029a9a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+.social-icons a.social-square:before {
+  background: linear-gradient(45deg, #14238d, #27878f);
+  border-radius: 10%;
+}
+.social-icons a.social-square:hover:before {
+  transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: scale(-180deg);
+  border-radius: 100%;
+}
+.social-icons a.social-square:hover i {
+  transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  color: antiquewhite;
+  transform: scale(1.6);
+  -webkit-text-fill-color: antiquewhite;
+}
+
+/*Content styling*/
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Candara;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+
+.content .btn{
+    width: 70px;
+    height: 40px;
+    color: antiquewhite;
+    background-color: rgb(4, 119, 141);
+    border: none;
+    border-radius: 12px;
+    margin: 3em;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.content .btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content .btn{
+    border: none;
+    border-bottom: 1px darkslategray;
+}
+
+.btn:hover{
+    background: -webkit-linear-gradient(45deg, #f3d409, #ec6406, #bb0768, #720172);
+    text-decoration: #1f1f1f;
+}
+
+.content span{
+    color: #27878f;
+}
+
+/*FORM STYLING*/
+.form{
+    font-size: 18px;
+    width: 210px;
+    height: 210px;
+    background-color: darkcyan;
+    position: absolute;
+    top: 201px;
+    left: 900px;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.form h2{
+    text-align: center;
+    color: #1f1f1f;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.form button{
+    width: 70px;
+    height: 26px;
+    color: antiquewhite;
+    background-color: #00b0b0;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1.5px solid darkslategray;
+}
+
+.btn-l{
+    text-decoration: none;
+}
+
+.btn-l:hover{
+    background: -webkit-linear-gradient(45deg, #f37a7a, rgba(225, 51, 163, 0.71), rgba(75, 33, 173, 0.68));
+}
+
+.form p{
+    color: #1f1f1f;
+    font-size: 14px;
+}
+
+.form input {
+    border-radius: 14px;
+    border-bottom: 1.5px solid darkslategray;
+    border-top: none;
+}
+
+.btn-s {
+    text-decoration: none;
+}
+.btn-s:hover{
+     background: -webkit-linear-gradient(45deg, #f37a7a, rgba(225, 51, 163, 0.71), rgba(75, 33, 173, 0.68));
+}
+
+/*SIGN-UP PAGE*/
+body{
+    background: -webkit-linear-gradient(135deg, #005600, #3cff3c);
+}
